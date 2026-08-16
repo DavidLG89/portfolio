@@ -1,12 +1,13 @@
 /* Variables centralizan colores, tipografías y espaciados para editarlos fácilmente. */
 :root {
-  --color-ink: #172033;
-  --color-muted: #5f6b7a;
-  --color-brand: #2659c9;
-  --color-brand-dark: #1d4297;
-  --color-surface: #ffffff;
-  --color-soft: #f3f6fc;
-  --color-line: #dce4f2;
+  --color-ink: #f5f3ff;
+  --color-muted: #b9b3c8;
+  --color-brand: #9b7cf6;
+  --color-brand-dark: #7c5ad8;
+  --color-surface: #111016;
+  --color-soft: #191722;
+  --color-card: #1d1a26;
+  --color-line: #332f40;
   --font-body: "DM Sans", sans-serif;
   --font-display: "Playfair Display", serif;
   --container-width: 70rem;
@@ -29,6 +30,11 @@ body {
   line-height: 1.6;
 }
 
+::selection {
+  background: var(--color-brand);
+  color: #fff;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -46,7 +52,7 @@ a {
 
 .site-header {
   border-bottom: 1px solid var(--color-line);
-  background: rgb(255 255 255 / 95%);
+  background: rgb(17 16 22 / 95%);
 }
 
 .navigation,
@@ -173,7 +179,7 @@ h3 {
 .profile-image {
   width: min(34vw, 19rem);
   aspect-ratio: 1;
-  border: 0.75rem solid var(--color-soft);
+  border: 0.75rem solid #272233;
   border-radius: 50%;
   object-fit: cover;
   animation: reveal-right 1.25s 180ms ease-out both;
@@ -204,7 +210,7 @@ h3 {
   padding: 1.5rem;
   border: 1px solid var(--color-line);
   border-radius: 0.75rem;
-  background: var(--color-surface);
+  background: var(--color-card);
   animation: reveal-up 900ms ease-out both;
 }
 
@@ -225,7 +231,8 @@ h3 {
 }
 
 .card:hover {
-  box-shadow: 0 0.75rem 2rem rgb(38 89 201 / 12%);
+  border-color: #51456a;
+  box-shadow: 0 0.75rem 2rem rgb(155 124 246 / 12%);
   transform: translateY(-0.25rem);
 }
 
@@ -251,6 +258,7 @@ h3 {
   padding: 0.8rem 1rem;
   border: 1px solid var(--color-line);
   border-radius: 0.4rem;
+  background: var(--color-card);
   font-weight: 600;
   text-align: center;
 }
@@ -260,37 +268,18 @@ h3 {
   height: 2rem;
 }
 
-.skills-list li:nth-child(1) {
-  background: #fff0eb;
-}
-
-.skills-list li:nth-child(2) {
-  background: #eaf2ff;
-}
-
-.skills-list li:nth-child(3) {
-  background: #fff4e2;
-}
-
-.skills-list li:nth-child(4) {
-  background: #e8f7ee;
-}
-
-.skills-list li:nth-child(5) {
-  background: #eaf9ff;
-}
-
 .contact {
-  background: var(--color-ink);
+  background: #171322;
+  border-top: 1px solid var(--color-line);
   color: #fff;
 }
 
 .contact .eyebrow {
-  color: #a9c3ff;
+  color: #c5b3ff;
 }
 
 .contact .section-text {
-  color: #d6deed;
+  color: #cec8da;
 }
 
 .contact-content {
@@ -300,19 +289,19 @@ h3 {
 
 .button-light {
   margin-top: 0;
-  background: #fff;
+  background: #f5f3ff;
   color: var(--color-brand-dark);
 }
 
 .button-light:hover,
 .button-light:focus-visible {
-  background: #dce8ff;
+  background: #e4dcff;
 }
 
 .site-footer {
   padding-block: 1.5rem;
-  background: #101725;
-  color: #c2cad8;
+  background: #0b0a0f;
+  color: #aaa4b7;
   font-size: 0.9rem;
   text-align: center;
 }

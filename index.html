@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio personal de David Ramon Thomen, desarrollador web."
+    />
+    <title>David Ramon Thomen | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container navigation">
+        <a class="brand" href="#inicio" aria-label="Ir al inicio">David Ramon Thomen</a>
+        <!-- La navegación apunta a secciones internas para una página simple y clara. -->
+        <nav aria-label="Navegación principal">
+          <ul class="nav-list">
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="container hero-content">
+          <div>
+            <p class="eyebrow">Portfolio personal</p>
+            <h1>Hola, soy <span>David Ramon Thomen</span>.</h1>
+            <p class="hero-text">
+              Estudiante y futuro/a desarrollador/a web. Creo experiencias digitales simples,
+              útiles y cuidadas.
+            </p>
+            <a class="button" href="#contacto">Hablemos</a>
+          </div>
+          <img
+            class="profile-image"
+            src="perfil.jpeg"
+            alt="Foto de perfil de David Ramon Thomen"
+          />
+        </div>
+      </section>
+
+      <section class="section" id="sobre-mi">
+        <div class="container two-columns">
+          <div>
+            <p class="eyebrow">Conoceme un poco más</p>
+            <h2>Sobre mí</h2>
+          </div>
+          <p class="section-text">
+            Estoy aprendiendo desarrollo web y me interesa transformar ideas en sitios claros y
+            agradables de usar. Este espacio reúne parte de mi perfil, intereses y habilidades.
+          </p>
+        </div>
+      </section>
+
+      <section class="section section-muted" id="hobbies">
+        <div class="container">
+          <p class="eyebrow">Fuera de la pantalla</p>
+          <h2>Hobbies</h2>
+          <div class="card-grid">
+            <article class="card">
+              <h3>Lectura</h3>
+              <p>Disfruto descubrir nuevas historias e ideas.</p>
+            </article>
+            <article class="card">
+              <h3>Música</h3>
+              <p>Escuchar música me ayuda a concentrarme e inspirarme.</p>
+            </article>
+            <article class="card">
+              <h3>Aprender</h3>
+              <p>Me gusta explorar herramientas y temas nuevos.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="habilidades">
+        <div class="container">
+          <p class="eyebrow">Tecnologías</p>
+          <h2>Habilidades</h2>
+          <!-- Grid permite que las habilidades se adapten sin cambios de marcado en móvil. -->
+          <ul class="skills-list" aria-label="Lista de habilidades">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Java</li>
+            <li>Spring Boot</li>
+            <li>MySQL</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section contact" id="contacto">
+        <div class="container contact-content">
+          <div>
+            <p class="eyebrow">¿Tenés una idea?</p>
+            <h2>Contacto</h2>
+            <p class="section-text">Estoy disponible para conversar sobre nuevos proyectos.</p>
+          </div>
+          <a class="button button-light" href="mailto:thomendavid1@gmail.com">
+            thomendavid1@gmail.com
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2026 David Ramon Thomen. Hecho con HTML y CSS.</p>
+      </div>
+    </footer>
+  </body>
+</html>

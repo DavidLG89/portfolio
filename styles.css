@@ -244,11 +244,40 @@ h3 {
 }
 
 .skills-list li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
   padding: 0.8rem 1rem;
   border: 1px solid var(--color-line);
   border-radius: 0.4rem;
   font-weight: 600;
   text-align: center;
+}
+
+.skill-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.skills-list li:nth-child(1) {
+  background: #fff0eb;
+}
+
+.skills-list li:nth-child(2) {
+  background: #eaf2ff;
+}
+
+.skills-list li:nth-child(3) {
+  background: #fff4e2;
+}
+
+.skills-list li:nth-child(4) {
+  background: #e8f7ee;
+}
+
+.skills-list li:nth-child(5) {
+  background: #eaf9ff;
 }
 
 .contact {

@@ -323,15 +323,21 @@ h3 {
   gap: 2rem;
 }
 
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
 .button-light {
   margin-top: 0;
-  background: #f5f3ff;
-  color: var(--color-brand-dark);
+  background: var(--color-brand);
+  color: #fff;
 }
 
 .button-light:hover,
 .button-light:focus-visible {
-  background: #e4dcff;
+  background: var(--color-brand-dark);
 }
 
 .site-footer {

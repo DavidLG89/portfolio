@@ -1,3 +1,7 @@
+La **PFO1** consiste en desarrollar una landing page de portafolio personal utilizando **HTML y CSS**, donde presentes tu nombre, perfil, habilidades, contacto y una sección personal. Debe incluir HTML semántico, diseño responsive con Flexbox o Grid, Google Fonts, una transición o animación, imágenes con `alt`, un formulario con `label` y un enlace visible a tu perfil de GitHub.
+
+Además, el proyecto debe publicarse en **Vercel** y contar con un **README.md** que explique brevemente la PFO1, incluya la URL publicada, las decisiones tomadas y la declaración de uso de IA.
+
 # Portfolio personal
 
 Portfolio web personal desarrollado únicamente con HTML y CSS. El proyecto presenta información personal, hobbies, habilidades y datos de contacto en un diseño responsive.

@@ -6,6 +6,10 @@ Además, el proyecto debe publicarse en **Vercel** y contar con un **README.md**
 
 Portfolio web personal desarrollado únicamente con HTML y CSS. El proyecto presenta información personal, hobbies, habilidades y datos de contacto en un diseño responsive.
 
+## Sitio desplegado
+
+[Ver el portfolio en Vercel](https://portfolio-psi-five-4bhtaqzswp.vercel.app)
+
 ## Tecnologías utilizadas
 
 - HTML5
